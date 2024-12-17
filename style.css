@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Circular Std", Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 81px;
+}
+
+.logo {
+  width: 202px;
+  height: 20px;
+  background-image: url("media/Frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 129px;
+  flex-grow: 1;
+}
+
+.menu-item {
+  margin-left: 15px;
+  color: #000c2d;
+  font-family: "Circular Std", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.71px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background-color: transparent;
+}
+
+.menu-item.demo {
+  width: 136px;
+  height: 44px;
+  padding: 12px 23px;
+  gap: 10px;
+  border: 1px solid #2f70fe;
+  color: #2f70fe;
+  background-color: #ffffff;
+}
+
+.menu-item.login {
+  display: flex;
+  align-items: center;
+  width: 58px;
+  height: 18px;
+  gap: 4px;
+  color: #000c2d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.71px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.login-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=style.css.map */
