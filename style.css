@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +68,7 @@ body {
   border: 1px solid #2f70fe;
   color: #2f70fe;
   background-color: #ffffff;
+  border-radius: 5px;
 }
 
 .menu-item.login {
@@ -94,4 +96,83 @@ body {
 
 .menu-item:last-child {
   margin-right: 0;
+}
+
+.hero {
+  width: 100%;
+  height: 565px;
+  padding: 0;
+  background: #2f70fe;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Pridedame, kad iliustracijos būtų pozicionuojamos absoliučiai */
+}
+
+.hero-text {
+  width: 789px;
+  height: auto;
+  gap: 7px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  width: 620px;
+  height: 130px;
+  margin: 0 auto;
+  font-family: "Circular Std", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  width: 605px;
+  height: 60px;
+  margin: 0 auto;
+  font-family: "Circular Std", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  width: 162px;
+  height: 52px;
+  padding: 16px 25px;
+  gap: 10px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.hero-image-left {
+  position: absolute;
+  width: 389.74px;
+  height: 254.87px;
+  top: 320px;
+  left: 98px;
+}
+
+.hero-image-right {
+  position: absolute;
+  width: 340.17px;
+  height: 261px;
+  top: 227px;
+  left: 978px;
 }/*# sourceMappingURL=style.css.map */
