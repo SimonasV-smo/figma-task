@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -108,7 +107,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative; /* Pridedame, kad iliustracijos būtų pozicionuojamos absoliučiai */
+  position: relative;
 }
 
 .hero-text {
@@ -175,4 +174,77 @@ body {
   height: 261px;
   top: 227px;
   left: 978px;
+}
+
+.section-frame {
+  width: 100%;
+  height: 561px;
+  background: rgba(0, 255, 133, 0.0784313725);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.section-title {
+  width: 100%;
+  max-width: 1440px;
+  height: 51px;
+  margin-top: 139px;
+  margin-bottom: 40px;
+  font-family: "Circular Std", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50.6px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+.images-container {
+  width: 824px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  margin: 0 auto;
+}
+
+.image-text {
+  width: 253px;
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.round-image {
+  width: 100px;
+  height: 100px;
+  background: #2f70fe;
+  border: 1px solid #2f70fe;
+  border-radius: 50%;
+}
+
+.round-image.second {
+  background: #6ded02;
+  border: 1px solid #88bdda;
+}
+
+.round-image.third {
+  background: #2f70fe;
+}
+
+.image-text p {
+  font-family: "Circular Std", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
